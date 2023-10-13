@@ -1,0 +1,64 @@
+#myTable{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#myTable tr{
+    background-color: #009879;
+    color: white;
+    text-align: center;
+}
+th,td{
+    padding: 12px 15px;
+}
+th{
+    color: antiquewhite;
+    font-weight: bold;
+}
+tr{
+    border: 2px solid white;
+}
+button{
+    padding: 10px 20px;
+    background: #009879;
+    color: white;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: green;
+}
+p{
+    font-size: 1.5rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cutewallpaper.org/28/desktop-office-background-wallpaper/294015696.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+@media (max-width:768px) {
+    #myTable{
+        min-width: 300px;
+    }
+    p{
+        color: black;
+    }
+    body{
+        background: lightblue;
+    }
+}
+@media (max-width:300px) {
+    #myTable{
+        min-width: 200px;
+    }
+}
